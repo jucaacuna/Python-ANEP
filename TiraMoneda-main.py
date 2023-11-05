@@ -12,7 +12,8 @@ def mostrarMoneda5p(a):
     return b[a]
 
 def main():
-    """Esta es la funcion principal del programa. Lleva un conteo de cuantas veces sale cada cara..."""
+    """Esta es la funcion principal del programa. Lanza la moneda al agitar la placa.
+    Lleva un conteo de cuantas veces sale cada lado de la moneda..."""
     caritas = 0
     numeritos = 0
     while True:
