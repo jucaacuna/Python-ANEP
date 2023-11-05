@@ -18,6 +18,7 @@ def main():
     numeritos = 0
     
     while True:
+        display.show(Image.BUTTERFLY)
         if button_a.was_pressed():
 
             for x in range(0, 100):
@@ -26,8 +27,11 @@ def main():
                     caritas += 1
                 elif moneda is 1:
                     numeritos += 1
-                    
-        display.scroll("Caras: "+str(caritas)+"  Numeros: "+str(numeritos))
+
+            display.scroll("Caritas: "+str(caritas)+"  Numeros: "+str(numeritos))
+        if button_b.was_pressed():
+            display.scroll("P (carita): " + str(caritas/(caritas+numeritos))+" y P (numerito): "+ str(numeritos/(caritas+numeritos)))
+        
 
 
 main()
