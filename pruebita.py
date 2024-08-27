@@ -5,7 +5,7 @@ import random
 #               JUAN ACUÑA               #
 #                                        #
 ##########################################
-
+# Resolución a un ejercicio planteado por el Prof. Sebastián Dos Santos. En el marco del curso CC de DGES.
 
 
 
